@@ -1,3 +1,10 @@
 body {
-    background-color: wheat;
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
