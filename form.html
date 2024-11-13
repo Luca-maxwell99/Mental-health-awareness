@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="icon" href="assets/images/icons8-mental-health-64.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/7854aaf8f9.js" crossorigin="anonymous"></script>
-
-
+    <script src="https://kit.fontawesome.com/7854aaf8f9.js" crossorigin="anonymous"></script> 
 </head>
 
 <body>
@@ -28,9 +25,8 @@
         <div class="container my-5">
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
-                    <h2>Our Mission</h2>
-                    <p class="lead">Our mission is to provide accessible mental health resources and support. We aim to
-                        educate, reduce stigma, and promote mental well-being for all.</p>
+                    <h2>We want to hear your thoughts!</h2>
+                    
                 </div>
             </div>
         </div>
@@ -54,14 +50,18 @@
 
 
     </header>
+    <div class="form-container">
+        <h2>Share Your Experience</h2>
+        <form action="/submit-experience" method="post">
+            <label for="experience">Your Experience (Confidential):</label>
+            <textarea id="experience" name="experience" placeholder="Share your experience here..."></textarea>
 
-    <main>
+            <label for="email">Email Address (Optional):</label>
+            <input type="email" id="email" name="email" placeholder="Your email address">
 
-
-
-
-    </main>
-
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <footer>
         <div class="container d-flex justify-content-between align-items-center py-3">
             <p>&copy; Mental Health Awareness</p>
@@ -79,16 +79,5 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 </body>
-
-
-
 </html>
