@@ -179,6 +179,30 @@ header {
     flex: 1 1 calc(50% - 40px);
   }
 }
-@media (max-width: 600px) .card {
-  flex: 1 1 100%;
+@media (max-width: 767pxpx) 
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50%;
+}
+
+.bg-white { background-color: white; }
+
+.form-about {
+  padding: 20px;      /* Adds padding inside the text box */
+  margin: 20px auto;  /* Adds spacing around the text box and centers it horizontally */
+  border: 1px solid #ccc;  /* Adds a border around the text box */
+  border-radius: 5px;      /* Rounds the corners of the text box */
+  background-color: white; /* Sets the background color to white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for visual appeal */
+  width: 80%;         /* Sets the width of the text box */
+  max-width: 600px;   /* Ensures the text box doesn't get too wide */
+  font-size: 16px;    /* Sets the font size inside the text box */
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
 }
