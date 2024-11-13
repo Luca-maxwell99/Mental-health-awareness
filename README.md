@@ -9,3 +9,5 @@ I opted for a relatviely easy going website with nice colours and a simple UX. A
 ## why 
 
 Thank you for visiting our website and supporting mental health awareness.
+
+I didnt allow my self enough time at all to finish this project. Its a good learning curve. 
